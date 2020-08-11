@@ -1,9 +1,10 @@
 # Sub-Matrix Factorization for Real-Time Vote Prediction
 
-This repository contains the code and data to reproduce the experiments of the paper _Sub-Matrix
-Factorization for Real-Time Vote Prediction_ to appear at KDD'20.
+This repository contains the data and code to reproduce the experiments of
 
-For standalone versions of the models and datasets, have a look at the [`predikon` library](https://github.com/indy-lab/predikon).
+> Immer, A.\*, Kristof, V.\*, Grossglauser, M., Thiran, P., [*Sub-Matrix Factorization for Real-Time Vote Prediction*](https://infoscience.epfl.ch/record/278872), KDD 2020
+
+For a standalone version of the algorithm propose in the paper, have a look at the [`predikon`](https://github.com/indy-lab/predikon) library.
 
 ## Data
 
