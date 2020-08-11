@@ -4,7 +4,7 @@ This repository contains the data and code to reproduce the experiments of
 
 > Immer, A.\*, Kristof, V.\*, Grossglauser, M., Thiran, P., [*Sub-Matrix Factorization for Real-Time Vote Prediction*](https://infoscience.epfl.ch/record/278872), KDD 2020
 
-For a standalone version of the algorithm propose in the paper, have a look at the [`predikon`](https://github.com/indy-lab/predikon) library.
+For a standalone version of the algorithm proposed in the paper, have a look at the [`predikon`](https://github.com/indy-lab/predikon) library.
 
 ## Data
 
