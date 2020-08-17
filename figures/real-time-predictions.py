@@ -16,6 +16,10 @@ DATE2VOTES = {
     '2019-05-19': [6270, 6280],
     '2020-02-09': [6290, 6300]
 }
+VOTE2IDX = {
+    6290: 0,
+    6300: 1
+}
 
 
 def plot(preds, ax, labels, colors, linestyles, title, pos):
@@ -123,7 +127,10 @@ def main(args):
     titles = ['Affordable Houses', 'Ban on Homophobia']
 
     fig, axes = plt.subplots(nrows=2, figsize=(3.6, 2.8))
-    for i, preds in enumerate(data.values()):
+    for vote, preds in data.items():
+        if vote not in DATE2VOTES['2020-02-09']:
+            continue
+        i = VOTE2IDX[vote]
         plot(preds, axes[i], labels, colors, linestyles,
              titles[i], positions[i])
 

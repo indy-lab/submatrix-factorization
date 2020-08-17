@@ -1,2 +1,9 @@
+# Python
 *.pyc
+
+# macOS
 .DS_STORE
+
+# Data
+real-time/.ipynb_checkpoints/
+real-time/data/
