@@ -6,9 +6,13 @@ This repository contains the data and code to reproduce the experiments of
 
 #### Quick Links
 
-- A standalone implementation of the algorithm proposed in the paper, is available in the [`predikon`](https://github.com/indy-lab/predikon) library.
 - The real-time data for Switzerland are available in a [Zenodo repo](https://zenodo.org/record/3984924).
 - The platform for real-time vote predictions in Switzerland is available at [www.predikon.ch](http://www.predikon.ch).
+- Here is a [PDF version](https://infoscience.epfl.ch/record/278872) of the paper.
+- The [`predikon`](https://github.com/indy-lab/predikon) library provides a standalone implementation of the algorithm proposed in the paper:
+```
+pip install predikon
+```
 
 ## Data
 
@@ -17,6 +21,8 @@ We evaluate our approach and analyze the following four data sets:
 2. Popular vote of US presidential elections (binary outcomes between the Democrat and Republican candidates)
 3. State-level German legislative elections (for the 5 major parties)
 4. District-level (*Wahlkreise*) German legislative elections (for the 5 major parties)
+
+These datasets are located in the [`data`](data).
 
 ## Experiments
 
