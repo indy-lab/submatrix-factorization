@@ -4,7 +4,11 @@ This repository contains the data and code to reproduce the experiments of
 
 > Immer, A.\*, Kristof, V.\*, Grossglauser, M., Thiran, P., [*Sub-Matrix Factorization for Real-Time Vote Prediction*](https://infoscience.epfl.ch/record/278872), KDD 2020
 
-For a standalone version of the algorithm proposed in the paper, have a look at the [`predikon`](https://github.com/indy-lab/predikon) library.
+#### Quick Links
+
+- A standalone implementation of the algorithm proposed in the paper, is available in the [`predikon`](https://github.com/indy-lab/predikon) library.
+- The real-time data for Switzerland are available in a [Zenodo repo](https://zenodo.org/record/3984924).
+- The platform for real-time vote predictions in Switzerland is available at [www.predikon.ch](http://www.predikon.ch).
 
 ## Data
 
