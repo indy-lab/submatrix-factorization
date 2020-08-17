@@ -11,6 +11,10 @@ Second, make sure you have access to historical data from the root of this repo 
 
 Run the [generate-predictions.ipynb](generate-predictions.ipynb) notebook to generate predictions.
 
+Note that, even though we have released an implementation of the algorithm as a python library (`pip install predikon`), at the time of the submission we used an implementation in Torch for the real-time predictions.
+We are reporting the results using this (old) Torch implementation.
+The Web platform is now using the new `predikon` library for predicting in real-time.
+
 ## Plot Predictions
 
 Run the corresponding script in the [figures](../figures) folder:
