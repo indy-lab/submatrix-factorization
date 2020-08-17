@@ -59,8 +59,8 @@ Here, `--name` should be the same as `--name` from Step 1.
 We select the best combination of hyperparameters, and we add them to `run_benchmark.py` (see `get_models()` on lines 15-45)
 
 Finally, for Step 3, we evaluate the model on a test set using the best hyperparameters from Step 2 using:
-```bash
 Then, we are ready to run the final benchmark using
+```bash
 python run_benchmark.py --name testCH --data_dir data/ --n_obs 300 --v_max 326 --models test --dataset CH --n_orders 100 --n_quantiles 50 --logscale
 ```
 
@@ -69,6 +69,14 @@ In short, to reproduce all results:
 2. Run `python evaluate_benchmark.py --name NAME` on all resulting files
 3. Optionally adjust the test models in `run_benchmark.py`
 4. Run `scripts/test.sh`.
+
+## Real-Time Predictions
+
+Check the [`real-time`](real-time) folder.
+
+## Generate Figures
+
+Check the [`figures`](figures) folder.
 
 ## References
 
