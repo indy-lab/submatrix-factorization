@@ -9,6 +9,7 @@ This repository contains the data and code to reproduce the experiments of
 - The real-time data for Switzerland are available in a [Zenodo repo](https://zenodo.org/record/3984924).
 - The platform for real-time vote predictions in Switzerland is available at [www.predikon.ch](http://www.predikon.ch).
 - Here is a [PDF version](https://infoscience.epfl.ch/record/278872) of the paper.
+- The [`swissvotes`](https://github.com/victorkristof/swissvotes) library provides a scraper for the real-time Swiss referendum vote results.  
 - The [`predikon`](https://github.com/indy-lab/predikon) library provides a standalone implementation of the algorithm proposed in the paper:
 ```
 pip install predikon
